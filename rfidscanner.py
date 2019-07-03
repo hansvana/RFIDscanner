@@ -7,7 +7,7 @@ import time
 # Set the COM port here, or 
 # set listcomports to True if you want to see a list of COM ports
 #
-comport = 'COM4'
+comport = 'COM6'
 listcomports = False
 #
 #
