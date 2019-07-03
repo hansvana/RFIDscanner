@@ -12,6 +12,7 @@ The usage case for this script is to quickly scan a large number of RFID ids int
 
 This script expects to receive a number string (hex codes 48 to 57) followed by a newline (hex 10). Upon receiving the newline, it will simulate a keypress of each number followed by a tab. Every RFID tag found is stored in memory, to avoid duplicates.
 
+- Change the COM Port at the beginning of `rfidscanner.py`
 - Run the script in the background
 - Open Excel and select the first cell
 - Scan the RFID tags
